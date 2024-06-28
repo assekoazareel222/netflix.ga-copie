@@ -1,0 +1,12 @@
+.section3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px var(--border-color2) solid;
+}
+.contentSection3{
+    height: 244px;
+    width: 855px;
+
+}

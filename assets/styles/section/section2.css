@@ -1,0 +1,27 @@
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 10px var(--border-color2) solid;
+    padding-bottom: 5em;
+}
+
+.contentSection2{
+    max-width: 1442px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left2{
+    height: 715px;
+    width: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image3{
+    height: 80%;
+    width: auto;
+}

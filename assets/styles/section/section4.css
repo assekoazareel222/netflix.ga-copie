@@ -1,0 +1,13 @@
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    color: white;
+    border-bottom: 10px var(--border-color2) solid;
+   
+}
+.image4{
+    height: 650px;
+    width: 736px;
+}
