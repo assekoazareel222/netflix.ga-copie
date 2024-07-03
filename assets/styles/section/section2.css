@@ -8,6 +8,7 @@
 }
 
 .contentSection2{
+    width: 100%;
     max-width: 1442px;
     display: flex;
     align-items: center;

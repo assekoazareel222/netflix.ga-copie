@@ -2,9 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
-    padding-top:72px;
+    justify-content: center;
+    gap: 1em;
     border-bottom: 10px solid var(--border-color2);
+}
+.contentSection5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 /* .contentSection{
     height: 921px;
@@ -24,9 +32,10 @@
     align-items: center;
 }
 .element{
+    width: 100%;
     height: 84px;
     width: 1485px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     background-color: var(--border-color1);
     color: white;
     font-size: var(--font-size-SousTitre);
@@ -47,26 +56,68 @@
 .contentElement{
     margin: 24px;
 }
-
-.input2{
-    height: 56px;
-    width: 364px;
-    border: white solid 2px;
-    background-color:black ;
-    border-radius: 5px;
+.element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+}
+.buttomS5{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 102px;
+    width: 100%;
+    max-width: 910px;
     color: white;
-    border: var(--border-color2 , 0.2) solid 1px;
-    font-size: var(--font-size-SousTitre);
-    font-weight: var(--font-weight-SousTitre);
 }
-.btn2{
-    height: 56px;
-    margin-left: 8px;
+.text5{
+    margin-top: 3em;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
+.groupButton5{
+    display: flex;
+    gap: 10px;
+    height: 58px;
+    width: 100%;
+    max-width: 586px;
+    color: white;
+}
+
 .blanc{
-    margin-top: 2em;
     margin-bottom: 1em;
     text-align: center;
     color: white;
 
+}
+.svg{
+    margin-left: 5em;
+}
+.input5{
+    height:55px;
+    width: 65%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    border: solid 1px var(--border-color1);
+    color: white;
+    padding: 3px;
+    
+}
+.btn6{
+    height: 100%;
+    width: 34%;
+    background-color: var(--red-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+
+
+    
 }

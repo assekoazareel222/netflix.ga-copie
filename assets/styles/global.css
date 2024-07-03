@@ -4,12 +4,15 @@
 @import url(../styles/section/section3.css);
 @import url(../styles/section/section4.css);
 @import url(./section/section5.css);
-@import url(./footer.css);
+@import url(./footer.css); 
+@import url(./responsive.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 
 :root{
     --primary-color:rgb(255, 255, 255);
-    --secondary-color:rgb(0, 0, 0);
+    --secondary-color: rgb(0, 0, 0);
     --red-color:rgb(229, 9, 20);
     --border-color1:#232323;
     --border-color2:#656565;
@@ -33,11 +36,15 @@
     padding: 0;
 }
 body{
+    width: 100%;
+    height: 100vh;
     background-color: var(--secondary-color); 
     height: 4430px;
-    width: 100%;
     display: grid;
     grid-template-rows: 700px 685px 685px 404px 685px 927px 343px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 

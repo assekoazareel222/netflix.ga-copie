@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 10px var(--border-color2) solid;
+    flex: 1;
     
 }
 .contentSection{
@@ -13,6 +14,7 @@
     justify-content: center;
     align-items: center;
     margin: 16px;
+    gap: 10px;
 
 }
 .left1{
@@ -31,19 +33,19 @@
     font-size: var(--font-size-SousTitre);
     font-weight: var(--font-weight-SousTitre);
 }
-.right{
-    height: 536px;
-    width: 715px;
+.right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .image2{
     position: relative;
-    height: 100%;
-    width: 100%;
+   
     z-index: 5;
 }
 .video{
     position: absolute;
-    top: 92%;
-    right: 18%;
-    width:500px ;
+   
+
+    
 }
