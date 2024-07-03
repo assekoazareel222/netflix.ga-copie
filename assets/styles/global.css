@@ -1,6 +1,6 @@
 @import url(../styles/header.css);
 @import url(../styles/section/section1.css);
-@import url(/assets/styles/section/section2.css);
+@import url(../styles/section/section2.css);
 @import url(../styles/section/section3.css);
 @import url(../styles/section/section4.css);
 @import url(./section/section5.css);
