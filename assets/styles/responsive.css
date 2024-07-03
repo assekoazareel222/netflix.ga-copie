@@ -159,7 +159,7 @@
     width: 100%;
    }
 }
-@media (max-width:672px){
+@media (max-width:360px){
     .buttoms5{
         height: 182px;
         width: 509px;
